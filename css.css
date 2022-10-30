@@ -1,0 +1,39 @@
+body {
+	font-family: Verdana;
+	font-size: 14px;
+	background-color: #D3D3D3;
+}
+
+label {
+	font-weight: bold;
+	color: grey;
+	font-size: 12px;
+}
+
+.font {
+	color: #FFFAFA;
+}
+
+.font2 {
+	color: black;
+}
+
+.font3 {
+	color: #4682B4;
+}
+
+.button {
+	border-radius: 5px;
+	padding: 4px;
+	border-style: #FFB90F;
+	border-width: 2px;
+}
+
+.button_color {
+	background: #A9A9A9;
+}
+
+.logo {
+	color: white;
+}
+
