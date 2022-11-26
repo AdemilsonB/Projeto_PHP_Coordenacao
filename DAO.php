@@ -46,10 +46,10 @@ function listar_prof()
 	{
 		$id_coordenador = $_SESSION['id_coordenador'];
 		$inf = "SELECT 
+						id_prof,
 						nome_prof, 
 						disciplina_prof, 
-						email_prof,
-						id_coordenador
+						email_prof
 				FROM professor_tb 
 				WHERE id_coordenador = $id_coordenador";
 	}
@@ -85,12 +85,12 @@ function listar_prof()
 				
 				echo '<td>'. $value . '</td>';
 			}
+			
 			echo '<td>
 					<a href="editar.php?id_prof='.$id_prof.'" class="btn btn-info">
 						<img src="imagens/lapis.png" width="15px" height="15px"> Editar
 					</a>
 				  </td>';
-
 			echo '<td>
 					<a href="deletar.php?id_prof='.$id_prof.'" class="btn btn-info" 
 					onclick="return confirm(\'Deseja excluir este funcionário?\')">
