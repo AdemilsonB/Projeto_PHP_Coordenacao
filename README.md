@@ -12,3 +12,6 @@ HTML<br>
 MySql
 
 <h1>Desenvolvimento do Projeto, Funcionalidades:</h1>
+O Projeto foi desenvolvido utilizando PHP e HTML para realizar as funções da Aplicação, para a customização da página Web utilizei CSS, os dados inseridos no programa são armazenados em MySql para manipulação deles.
+Para fazer o acesso é necessário o usuário se cadastrar no Sistema como seus dados pessoais e a partir disso poder fazer o login para efetuar ações disponíveis, ou seja, adicionar professores com seus dados, logo após cadastrar um professor ou mais o coordenador pode alterar os dados e fazer a exclusão de um professor de sua lista já registrada no banco de dados.
+Existe um único usuário que pode acessar e manipular os dados de todos os coordenadores que é o "Admin", os demais usuários(coordenadores) podem somente visualizar e realizar ações em seus respectivos cadastros.
